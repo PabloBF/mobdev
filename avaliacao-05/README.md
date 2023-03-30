@@ -15,9 +15,14 @@ Responda às seguintes questões:
    List<dynamic> lista = [elemento1, elemento2, ...];
    ```
 
-5. Qual a diferença entre uma lista e um conjunto em Dart?
-
+4. Qual a diferença entre uma lista e um conjunto em Dart?
+   > A lista aceita elementos duplicados, o conjunto não.
+   
 5. Como acessar um elemento específico de uma lista em Dart?
+   ```
+   List<dynamic> lista = [elemento1, elemento2, ...];
+   print(lista[0]);
+   ```
 
 6. Como adicionar um elemento ao final de uma lista em Dart?
 
