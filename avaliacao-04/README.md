@@ -122,9 +122,15 @@ int NomeDaVariavel = 5;
     ```
 
 19. Qual a sintaxe correta para acessar o valor de uma chave em um Map em Dart?
-
+    ```
+    Map<String, int> idadePorNome = { };
+      idadePorNome['João'] = 30;
+      int idade = idadePorNome['João'];
+    };
+    ```
 
 20. Qual a diferença entre uma lista e um Map em Dart?
-
+    > Listas são usadas para armazenar coleções ordenadas de elementos, enquanto mapas são usados para armazenar valores associados a chaves únicas.
 
 21. O que é inferencia de tipos em Dart?
+    > Em Dart, a inferência de tipos é a atribuição automática de um tipo a uma variável pelo compilador com base no valor que está sendo atribuído a ela, sem que seja necessário especificá-lo explicitamente.
