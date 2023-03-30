@@ -3,12 +3,19 @@
 Responda às seguintes questões:
 
 1. O que é uma lista em Dart?
+   > Em Dart, uma lista é uma coleção ordenada de elementos.
 
-2. Como criar uma lista vazia em Dart?
+3. Como criar uma lista vazia em Dart?
+   ```
+   List<dynamic> lista = [];
+   ```
 
 3. Como criar uma lista com elementos em Dart?
+   ```
+   List<dynamic> lista = [elemento1, elemento2, ...];
+   ```
 
-4. Qual a diferença entre uma lista e um conjunto em Dart?
+5. Qual a diferença entre uma lista e um conjunto em Dart?
 
 5. Como acessar um elemento específico de uma lista em Dart?
 
