@@ -3,13 +3,15 @@
 
 ```mermaid
 classDiagram
-    Cliente         "1" <--        NotaFiscalVenda
-    NotaFiscalVenda     <..        TesteNotaFiscal : usa
-    NotaFiscalVenda "1" <--        ItemNotaFiscal
-    NotaFiscalVenda     o-- "1..*" ItemNotaFiscal
-    TipoCliente     "1" <--        Cliente
-    Produto         "1" <--        ItemNotaFiscal
-    
+    direction LR
+
+    Cliente             "-cliente 1" <--               NotaFiscalVenda
+    NotaFiscalVenda                  <..               TesteNotaFiscal : usa
+    TipoCliente     "-tipoCliente 1" <--               Cliente
+    NotaFiscalVenda                  o-- "-itens 1..*" ItemNotaFiscal
+    NotaFiscalVenda  "-notaFiscal 1" <--               ItemNotaFiscal
+    Produto             "-produto 1" <--               ItemNotaFiscal    
+
     class Cliente {
     - codigo: int
     - nome: String
@@ -34,6 +36,7 @@ classDiagram
     }
     
     class TipoCliente {
+    <<Enumeration>>
       PESSOAFISICA
       PESSOAJURIDICA
     }
@@ -50,7 +53,7 @@ classDiagram
       - codigo : int
       - descricao : String
       - valor : BigDecimal
-      + Produto(): void
-      + toString(): String
+      - Produto(): void
+      - toString(): String
     }
 ```
