@@ -14,28 +14,29 @@
 
 3. Qual é a função da instrução `switch` em Dart?
    - [ ] Testar uma condição única.
-   - [ ] Testar várias condições diferentes.
+   - [x] Testar várias condições diferentes.
    - [ ] Encerrar um bloco de código.
+   - [ ] Executar um bloco de código enquanto uma condição for verdadeira.
 
-4. Executar um bloco de código enquanto uma condição for verdadeira./ Como se define um case dentro de uma estrutura `switch` em Dart?
-   - [ ] `case 1:`
-   - [ ] `case "opção 1":`
-   - [ ] `case (1):`
+4. Como se define um `case` dentro de uma estrutura `switch` em Dart?
+   - [x] `case 1:`
+   - [x] `case "opção 1":`
+   - [x] `case (1):`
    - [ ] `case 1`
 
 5. Qual é a sintaxe básica da instrução `for` em Dart?
-   - [ ] `for (inicialização; condição; incremento) { }`
+   - [x] `for (inicialização; condição; incremento) { }`
    - [ ] `for (condição) { }`
    - [ ] `for (inicialização; incremento) { }`
    - [ ] `for (inicialização) { }`
 
-6. Qual é a sintaxe básica da instrução while em Dart?
-   - [ ] `while (condição) { }`
+6. Qual é a sintaxe básica da instrução `while` em Dart?
+   - [x] `while (condição) { }`
    - [ ] `while { }`
    - [ ] `while (condição)`
    - [ ] `while {condição}`
 
-7. Qual é a função da instrução do-while em Dart?
+7. Qual é a função da instrução `do`-`while` em Dart?
    - [ ] Executar um bloco de código enquanto uma condição for verdadeira.
    - [ ] Executar um bloco de código pelo menos uma vez, e então repeti-lo enquanto uma condição for verdadeira.
    - [ ] Testar várias condições diferentes.
