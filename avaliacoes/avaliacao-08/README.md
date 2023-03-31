@@ -3,11 +3,12 @@
 
 ```mermaid
 classDiagram
-    Cliente <|-- NotaFiscalVenda
-    NotaFiscalVenda <|-- TesteNotaFiscal
-    NotaFiscalVenda <|-- ItemNotaFiscal
-    TipoCliente <|-- Cliente
-    Produto <|-- ItemNotaFiscal
+    Cliente <-- NotaFiscalVenda
+    NotaFiscalVenda <.. TesteNotaFiscal
+    NotaFiscalVenda <-- ItemNotaFiscal
+    NotaFiscalVenda o-- ItemNotaFiscal
+    TipoCliente <-- Cliente
+    Produto <-- ItemNotaFiscal
     
     class Cliente {
     - codigo: int
