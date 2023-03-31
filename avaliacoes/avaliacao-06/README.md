@@ -38,24 +38,24 @@
 
 7. Qual é a função da instrução `do`-`while` em Dart?
    - [ ] Executar um bloco de código enquanto uma condição for verdadeira.
-   - [ ] Executar um bloco de código pelo menos uma vez, e então repeti-lo enquanto uma condição for verdadeira.
+   - [x] Executar um bloco de código pelo menos uma vez, e então repeti-lo enquanto uma condição for verdadeira.
    - [ ] Testar várias condições diferentes.
    - [ ] Encerrar um bloco de código.
 
-8. Qual é a função da instrução break em Dart?
-   - [ ] Encerrar um bloco de código e continuar a execução no próximo bloco.
+8. Qual é a função da instrução `break` em Dart?
+   - [x] Encerrar um bloco de código e continuar a execução no próximo bloco.
    - [ ] Encerrar a execução do programa.
    - [ ] Encerrar um bloco de código e continuar a execução no bloco anterior.
-   - [ ] Encerrar um loop ou switch.
+   - [ ] Encerrar um loop ou `switch`.
 
-9. Qual é a função da instrução continue em Dart?
-   - [ ] Encerrar um loop ou switch.
-   - [ ] Ignorar o resto do bloco de código atual e continuar a execução no próximo bloco.
+9. Qual é a função da instrução `continue` em Dart?
+   - [ ] Encerrar um loop ou `switch`.
+   - [x] Ignorar o resto do bloco de código atual e continuar a execução no próximo bloco.
    - [ ] Encerrar a execução do programa.
    - [ ] Encerrar o bloco de código atual e continuar a execução no bloco anterior.
 
 10. O que é uma exceção em Dart?
     - [ ] Um erro de sintaxe.
-    - [ ] Um erro de tempo de execução.
+    - [x] Um erro de tempo de execução.
     - [ ] Um erro de compilação.
     - [ ] Uma variável global.
