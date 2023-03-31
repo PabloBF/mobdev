@@ -3,24 +3,53 @@
 
 ```mermaid
 classDiagram
-    Animal <|-- Duck
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    class Duck{
-      +String beakColor
-      +swim()
-      +quack()
+    Cliente <|-- NotaFiscalVenda
+    NotaFiscalVenda <|-- TesteNotaFiscal
+    NotaFiscalVenda <|-- ItemNotaFiscal
+    TipoCliente <|-- Cliente
+    Produto <|-- ItemNotaFiscal
+    
+    class Cliente {
+    - codigo: int
+    - nome: String
+    - cnpjcpf: String
+    - tipoCliente: TipoCliente
+    - Cliente(): void
+    - toString(): String
     }
-    class Fish{
-      -int sizeInFeet
-      -canEat()
+    
+    class NotaFiscalVenda {
+      - codigo : int
+      - data : String
+      - valorNota : float
+      - calcularValor(): BigDecimal
+      - criarItemNotaFiscal(): void
+      - NotaFiscalVenda(): void
+      - toString(): String
     }
-    class Zebra{
-      +bool is_wild
-      +run()
+    
+    class TesteNotaFiscal {
+      + main(): void
+    }
+    
+    class TipoCliente {
+      PESSOAFISICA
+      PESSOAJURIDICA
+    }
+    
+    class ItemNotaFiscal {
+      - numero : int
+      - quantidade : int
+      - valor : BigDecimal
+      - valorItemNF(): double
+      - toString(): String
+    }
+    
+    class Produto {
+      - codigo : int
+      - descricao : String
+      - valor : BigDecimal
+      - Produto(): void
+      - toString(): String
     }
 ```
