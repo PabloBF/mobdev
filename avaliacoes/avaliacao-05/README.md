@@ -295,47 +295,51 @@ Responda às seguintes questões:
     ```dart
     void main() {
       Map<String, dynamic> mapa = {'chave1': 'valor1', 'chave2': 'valor2'};
-      var chaves = mapa.keys.toList();
+      List<String> chaves = mapa.keys.toList();
     }
     ```
    
 16. Como criar uma lista de valores a partir de um mapa em Dart?
     ```dart
     void main() {
-      var mapa = {'chave1': 'value1', 'chave2': 'value2'};
-      var valores = myMap.values.toList();
+      Map<String, dynamic> mapa = {'chave1': 'valor1', 'chave2': 'valor2'};
+      List<dynamic> valores = myMap.values.toList();
     }
     ```
     
 17. Como transformar um mapa em uma lista de pares chave-valor em Dart?
     ```dart
-    var myMap = {'key1': 'value1', 'key2': 'value2'};
-var entries = myMap.entries.toList();
-
+    void main() {
+      Map<String, dynamic> mapa = {'chave1': 'valor1', 'chave2': 'valor2'};
+      var entradas = mapa.entries.toList();
+    }
     ```
     
 18. Como remover todos os elementos de um mapa em Dart?
     ```dart
-    var myMap = {'key1': 'value1', 'key2': 'value2'};
-myMap.clear();
-
+    void main() {
+      Map<String, dynamic> mapa = {'chave1': 'valor1', 'chave2': 'valor2'};
+      mapa.clear();
+    }
     ```
     
 19. Como calcular o tamanho de um mapa em Dart?
     ```dart
-    var myMap = {'key1': 'value1', 'key2': 'value2'};
-var size = myMap.length;
-
+    void main() {
+      Map<String, dynamic> mapa = {'chave1': 'valor1', 'chave2': 'valor2'};
+      int tamanho = mapa.length;
+    }
     ```
     
 20. Como verificar se dois mapas são iguais em Dart?
     ```dart
-    var map1 = {'key1': 'value1', 'key2': 'value2'};
-var map2 = {'key1': 'value1', 'key2': 'value2'};
-var isEqual = map1.toString() == map2.toString();
-
+    void main() {
+      Map<String, dynamic> mapa1 = {'chave1': 'valor1', 'chave2': 'valor2'};
+      Map<String, dynamic> mapa2 = {'chave1': 'valor1', 'chave2': 'valor2'};
+      var isIgual = mapa1.toString() == mapa2.toString();
+    }
     ```
-    
+ 
 # Conjuntos
 
 Responda às seguintes questões:
