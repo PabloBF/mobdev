@@ -251,12 +251,12 @@ Responda às seguintes questões:
    ```
    
 10. Como alterar o valor de uma chave em um mapa em Dart?
-   ```dart
-   void main() {
-     Map<String, dynamic> mapa = {'chave1': 'valor1'};
-     mapa['chave1'] = 'novoValor1';
-   }
-   ```
+    ```dart
+    void main() {
+      Map<String, dynamic> mapa = {'chave1': 'valor1'};
+      mapa['chave1'] = 'novoValor1';
+    }
+    ```
 
 11. Como obter todas as chaves de um mapa em Dart?
     ```dart
