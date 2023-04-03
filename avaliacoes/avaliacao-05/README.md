@@ -41,14 +41,14 @@ Responda às seguintes questões:
    ```
 
 8. Como remover um elemento de uma lista em Dart?
-  ```dart
-  void main() {
-    List<int> lista = [56, 48, 13];
-    lista.insert(0, 10);
-    lista.remove(56);
-    print(lista);
-  }
-  ```
+   ```dart
+   void main() {
+     List<int> lista = [56, 48, 13];
+     lista.insert(0, 10);
+     lista.remove(56);
+     print(lista);
+   }
+   ```
   
 9. Como verificar se uma lista contém um determinado elemento em Dart?
    ```dart
