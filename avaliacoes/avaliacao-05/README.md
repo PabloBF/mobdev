@@ -200,11 +200,13 @@ Responda às seguintes questões:
 
 3. Como criar um mapa com elementos em Dart?
    ```dart
-   Map<int, String> gasesNobres = {
-     2: 'hélio',
-     10: 'neônio',
-     18: 'argônio',
+   void main() {
+     Map<int, String> gasesNobres = {
+       2: 'hélio',
+       10: 'neônio',
+       18: 'argônio',
      };
+   }
    ```
 
 5. Qual a diferença entre uma lista e um mapa em Dart?
