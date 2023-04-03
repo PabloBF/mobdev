@@ -404,78 +404,78 @@ Responda às seguintes questões:
    ```
 
 10. Como obter a interseção de dois conjuntos em Dart?
-   ```dart
-   main() {
-     
-   }
-   ```
+    ```dart
+    main() {
+      
+    }
+    ```
 
 11. Como obter a diferença entre dois conjuntos em Dart?
-   ```dart
-   main() {
-     
-   }
-   ```
+    ```dart
+    main() {
+      
+    }
+    ```
 
 12. Como verificar se um conjunto é subconjunto de outro conjunto em Dart?
-   ```dart
-   main() {
-     
-   }
-   ```
+    ```dart
+    main() {
+      
+    }
+    ```
 
 13. Como verificar se dois conjuntos são iguais em Dart?
-   ```dart
-   main() {
-     
-   }
-   ```
+    ```dart
+    main() {
+      
+    }
+    ```
 
 14. Como criar um conjunto a partir de uma lista em Dart?
-   ```dart
-   main() {
-     
-   }
-   ```
+    ```dart
+    main() {
+      
+    }
+    ```
 
 15. Como criar uma lista a partir de um conjunto em Dart?
-   ```dart
-   main() {
-     
-   }
-   ```
+    ```dart
+    main() {
+      
+    }
+    ```
 
 16. Como transformar um conjunto em uma lista de strings em Dart?
-   ```dart
-   main() {
-     
-   }
-   ```
+    ```dart
+    main() {
+      
+    }
+    ```
 
 17. Como calcular a união de vários conjuntos em Dart?
-   ```dart
-   main() {
-     
-   }
-   ```
+    ```dart
+    main() {
+      
+    }
+    ```
 
 18. Como calcular a interseção de vários conjuntos em Dart?
-   ```dart
-   main() {
-     
-   }
-   ```
+    ```dart
+    main() {
+      
+    }
+    ```
 
 19. Como verificar se dois conjuntos são disjuntos em Dart?
-   ```dart
-   main() {
-     
-   }
-   ```
+    ```dart
+    main() {
+      
+    }
+    ```
 
 20. Como remover todos os elementos duplicados de uma lista usando um conjunto em Dart?
-   ```dart
-   main() {
-     
-   }
-   ```
+    ```dart
+    main() {
+      
+    }
+    ```
