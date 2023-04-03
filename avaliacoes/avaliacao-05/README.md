@@ -189,8 +189,14 @@ Responda às seguintes questões:
 # Mapas
 
 1. O que é um mapa em Dart?
+   > Uma coleção de pares chave/valor, a partir da qual você recupera um valor usando sua chave associada.
 
-2. Como criar um mapa vazio em Dart?
+3. Como criar um mapa vazio em Dart?
+   ```dart
+   void main(){
+     Map<String, int> mapa = {};
+   }
+   ```
 
 3. Como criar um mapa com elementos em Dart?
 
