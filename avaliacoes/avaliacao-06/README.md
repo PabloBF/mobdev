@@ -64,8 +64,6 @@
 
 ## Parte 2
 
-Prova de Fluxo de Controle em Dart
-
 1. O que é fluxo de controle em Dart?
    > O fluxo de controle em Dart é a forma como o programa toma decisões sobre qual código executar e em que ordem.
 
