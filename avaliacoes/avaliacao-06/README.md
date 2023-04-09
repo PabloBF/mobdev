@@ -143,25 +143,73 @@
     ```
 
 13. O que é uma instrução `break` em Dart?
-    >
+    > A instrução break em Dart é uma estrutura de controle utilizada para interromper a execução de um loop (como for, while ou do-while) ou de um switch statement.
 
 14. Como usar a instrução `break` em Dart?
-    >
+    ```dart
+    void main() {
+      var i = 0;
+      while (i < 10) {
+        if (i == 5) {
+          break;
+        }
+        print(i);
+        i++;
+      }
+    }
+    ```
 
 15. O que é uma instrução `continue` em Dart?
-    >
+    > A instrução continue em Dart é outra estrutura de controle utilizada para controlar o fluxo de execução de um loop. Quando o comando continue é executado dentro de um loop, a execução do loop é interrompida para a iteração atual e o controle é transferido para a próxima iteração.
 
 16. Como usar a instrução `continue` em Dart?
-    >
+    ```dart
+    void main() {
+      var i = 0;
+      while (i < 10) {
+        if (i == 5) {
+          continue;
+        }
+        print(i);
+        i++;
+      }
+    }
+    ```
 
 17. O que é uma instrução `try`-`catch` em Dart?
-    >
+    > A instrução try-catch em Dart é uma estrutura de controle utilizada para lidar com exceções que podem ocorrer durante a execução do programa. O bloco try contém o código que pode gerar uma exceção, enquanto o bloco catch contém o código que será executado se a exceção ocorrer.
 
 18. Como usar a instrução `try`-`catch` em Dart?
-    >
+    ```dart
+    import 'dart:io';
+    
+    void main() {
+      try {
+        var file = File('arquivo.txt');
+        var contents = await file.readAsString();
+        print(contents);
+      } catch (e) {
+        print('Erro: $e');
+      }
+    }
+    ```
 
 19. O que é uma instrução `finally` em Dart?
-    >
+    > A instrução `finally` em Dart é outra estrutura de controle utilizada em conjunto com a instrução `try`-`catch`. O bloco `finally` contém o código que será executado independentemente se ocorrer uma exceção ou não no bloco `try`.
 
 20. Como usar a instrução `finally` em Dart?
-    >
+    ```dart
+    import 'dart:io';
+
+    void main() {
+      try {
+        var file = File('arquivo.txt');
+        var contents = file.readAsStringSync();
+        print(contents);
+      } catch (e) {
+        print('Erro: $e');
+      } finally {
+        print('Fechando o arquivo...');
+      }
+    }
+    ```
